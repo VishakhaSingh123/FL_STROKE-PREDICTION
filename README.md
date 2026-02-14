@@ -1,7 +1,6 @@
 # 🧠 Privacy-Preserving Stroke Prediction using Federated Learning with Blockchain Logging
 
-## 📍 Location  
-Vishakhapatnam  
+ 
 
 ---
 
