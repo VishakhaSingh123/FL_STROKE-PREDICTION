@@ -19,7 +19,7 @@ from sklearn.metrics import (
 
 class HospitalClient(fl.client.NumPyClient):
     def __init__(self):
-        self.model = LogisticRegression(max_iter=1000)
+        self.model = LogisticRegression(max_iter=1000, class_weight='balanced')
         df = pd.read_csv("data/hospital_2.csv")
         self.X, self.y = preprocess(df)
 
@@ -30,17 +30,23 @@ class HospitalClient(fl.client.NumPyClient):
         return [self.model.coef_, self.model.intercept_]
 
     def fit(self, parameters, config):
-        self.model.coef_ = parameters[0]
-        self.model.intercept_ = parameters[1]
-        self.model.fit(self.X, self.y)
-        return [self.model.coef_, self.model.intercept_], len(self.X), {}
-
+      self.model.coef_ = parameters[0]
+      self.model.intercept_ = parameters[1]
+      self.model.fit(self.X, self.y)
+      self.model.class_weight = 'balanced'
+      return [self.model.coef_, self.model.intercept_], len(self.X), {}
+  
     def evaluate(self, parameters, config):
         # Load global model parameters
         self.model.coef_ = parameters[0]
         self.model.intercept_ = parameters[1]
 
-        y_pred = self.model.predict(self.X)
+       # Get probability of class 1
+        y_prob = self.model.predict_proba(self.X)[:, 1]
+
+       # Change threshold from default 0.5 to 0.25
+        y_pred = (y_prob > 0.25).astype(int)
+
 
         precision = precision_score(self.y, y_pred, zero_division=0)
         recall = recall_score(self.y, y_pred, zero_division=0)
