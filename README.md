@@ -187,16 +187,16 @@ This project resolves that conflict using **Federated Learning (FL)**:
 ## 📸 Screenshots
 
 ### 🔗 Blockchain Audit Log
-![Blockchain Log](<img width="1366" height="768" alt="Screenshot (534)" src="https://github.com/user-attachments/assets/8f7d566b-445a-4691-ad05-f50a3661108e" />
-)
+![Blockchain Log](https://drive.google.com/file/d/1JJi2AhNfi4gXq4UOnatEwcUxIMwuDfbV/view?usp=sharing)
+
 
 
 ### 📊 Classification Report (Hospital 1)
-![Classification Report](<img width="1366" height="768" alt="Screenshot (535)" src="https://github.com/user-attachments/assets/b406012a-7bfa-41e9-9735-2816ecdb3e61" />
-)
+![Classification Report](https://drive.google.com/drive/folders/1m1mS05smr_7Zh_c6bjvRTMz67OaLwTDr?usp=sharing)
+
 
 ### 📄 Audit Log JSON
-![Audit Log JSON](<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/43f818d3-2680-40a7-b073-8cd223cf6258" />
+![Audit Log JSON](https://drive.google.com/drive/folders/1C7KoFsgIfUHUjVxbs2DyeUgYRZgMB846?usp=sharing
 )
 
 
