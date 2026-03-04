@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="Screenshot (534)" src="https://github.com/user-attachments/assets/66b256be-faed-45f5-8bdd-c52f0ebf30cf" /># 🧠 Privacy-Preserving Stroke Prediction using Federated Learning & Blockchain Logging
+# 🧠 Privacy-Preserving Stroke Prediction using Federated Learning & Blockchain Logging
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)
 ![Flower](https://img.shields.io/badge/Flower-flwr-green?style=flat-square)
