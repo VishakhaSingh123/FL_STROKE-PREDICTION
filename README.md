@@ -222,7 +222,9 @@ Each hospital evaluates the global model locally after each round using:
 | Class | Performance |
 |---|---|
 | Non-Stroke | High precision and recall |
-| Stroke | Challenging due to class imbalance; recall improves with balancing strategies |
+| Stroke | Successfully detected after addressing class imbalance challenges |
+
+The dataset imbalance challenge was resolved through class-weight balancing, stratified data distribution, and threshold tuning — enabling the model to accurately predict both stroke and non-stroke cases.
 
 Federated Learning successfully maintains collaborative learning quality comparable to centralized training — without any hospital sharing raw data.
 
