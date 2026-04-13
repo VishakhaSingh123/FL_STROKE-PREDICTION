@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🧠 Privacy-Preserving Stroke Prediction using Federated Learning & Blockchain Logging
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)
@@ -36,6 +37,8 @@ This project resolves that conflict using **Federated Learning (FL)**:
 - The server aggregates updates using the **FedAvg algorithm** via **Flower (flwr)**
 - A **blockchain-inspired logging layer** records every participation event in a tamper-resistant hash chain
 =======
+=======
+>>>>>>> 1a8a2b98f4223bdc98aa24a4af0f2cf0c6182414
 # 🧠 Privacy-Preserving Stroke Prediction using Federated Learning with Blockchain Logging
 
  
@@ -51,12 +54,16 @@ Multiple hospitals collaboratively train a global machine learning model without
 To enhance trust and transparency, the system integrates a **blockchain-inspired logging mechanism** that records hospital participation in a tamper-resistant manner.
 
 The project demonstrates a real-world simulation of distributed healthcare machine learning while maintaining strict data privacy.
+<<<<<<< HEAD
 >>>>>>> 1a8a2b9 (add blockchain logging)
+=======
+>>>>>>> 1a8a2b98f4223bdc98aa24a4af0f2cf0c6182414
 
 ---
 
 ## 🏥 Problem Statement
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 | Challenge | Impact |
 |---|---|
@@ -65,6 +72,8 @@ The project demonstrates a real-world simulation of distributed healthcare machi
 | Distributed clients need synchronisation | Incomplete rounds degrade model quality |
 | Medical collaborations need audit trails | No way to verify hospital participation |
 =======
+=======
+>>>>>>> 1a8a2b98f4223bdc98aa24a4af0f2cf0c6182414
 Modern healthcare AI systems face critical challenges:
 
 - Patient data is highly sensitive and cannot be centralized.
@@ -138,12 +147,16 @@ A blockchain-inspired logging system records:
 - Participation history
 
 This creates a tamper-resistant audit trail.
+<<<<<<< HEAD
 >>>>>>> 1a8a2b9 (add blockchain logging)
+=======
+>>>>>>> 1a8a2b98f4223bdc98aa24a4af0f2cf0c6182414
 
 ---
 
 ## 🏗️ System Architecture
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -415,6 +428,8 @@ The hash chain links every block to the previous one — any tampering with past
 - [ ] Deploy across actual distributed nodes using FastAPI
 - [ ] Replace Logistic Regression with deep learning models
 =======
+=======
+>>>>>>> 1a8a2b98f4223bdc98aa24a4af0f2cf0c6182414
 The system consists of:
 
 - 🌐 Global Federated Server  
@@ -483,12 +498,16 @@ Recall and F1-score for stroke detection are more critical because missing a str
 - Integrate smart-contract-based blockchain  
 - Deploy real-time streaming hospital data  
 - Replace classical ML with deep learning models  
+<<<<<<< HEAD
 >>>>>>> 1a8a2b9 (add blockchain logging)
+=======
+>>>>>>> 1a8a2b98f4223bdc98aa24a4af0f2cf0c6182414
 
 ---
 
 ## 🎓 Conclusion
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 This project successfully implements a **working federated learning pipeline** using Flower (flwr) across 3 simulated hospital clients — achieving privacy-preserving collaborative stroke prediction without centralising any patient data.
 
@@ -500,6 +519,8 @@ Key outcomes:
 
 The project reflects real challenges in healthcare AI — data privacy, class imbalance, distributed synchronisation, and audit transparency — making it a strong foundation for production-grade federated medical ML systems.
 =======
+=======
+>>>>>>> 1a8a2b98f4223bdc98aa24a4af0f2cf0c6182414
 This project demonstrates a federated learning-based stroke prediction system enhanced with blockchain-inspired logging.
 
 While stroke prediction performance is limited by dataset imbalance, the system successfully:
@@ -518,12 +539,16 @@ The architecture reflects real-world healthcare AI challenges and provides a str
 - Demonstrated multi-hospital collaboration  
 - Addressed healthcare dataset imbalance challenges  
 - Integrated transparent blockchain-based logging  
+<<<<<<< HEAD
 >>>>>>> 1a8a2b9 (add blockchain logging)
+=======
+>>>>>>> 1a8a2b98f4223bdc98aa24a4af0f2cf0c6182414
 
 ---
 
 ## 👩‍💻 Author
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 **Vishakha Singh**
 B.Tech Computer Science, Manipal University Jaipur (2027)
@@ -540,3 +565,8 @@ B.Tech Computer Science, Manipal University Jaipur (2027)
 B.Tech Computer Science  
 Federated Learning & AI Enthusiast  
 >>>>>>> 1a8a2b9 (add blockchain logging)
+=======
+**Vishakha Singh**  
+B.Tech Computer Science  
+Federated Learning & AI Enthusiast  
+>>>>>>> 1a8a2b98f4223bdc98aa24a4af0f2cf0c6182414
