@@ -554,7 +554,7 @@ elif page == "📊 Training Metrics":
                 fill="toself",
                 name=h,
                 line_color=colors.get(h, "#94a3b8"),
-                fillcolor=colors.get(h, "#94a3b8").replace(")", ",0.15)").replace("rgb", "rgba") if "rgb" in colors.get(h, "") else colors.get(h, "#94a3b8") + "26",
+                fillcolor="rgba(124, 58, 237, 0.15)",
             ))
     fig_r.update_layout(
         polar=dict(

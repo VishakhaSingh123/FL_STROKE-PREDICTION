@@ -1,41 +1,41 @@
 [
   {
     "index": 0,
-    "timestamp": "2026-03-04 13:36:31",
+    "timestamp": "2026-04-13 12:56:34",
     "event": "GENESIS",
     "data": {
       "message": "FL Training Started"
     },
     "previous_hash": "0",
-    "hash": "820efd9579ebccf64675a0523625f96bb1ae7eb206269ad682047a39e521ffde"
+    "hash": "d57b72b7e3855c71445c2fea77e4ea38ec821f765f513d6ce35c0f7b687c0462"
   },
   {
     "index": 1,
-    "timestamp": "2026-03-04 13:36:31",
+    "timestamp": "2026-04-13 12:56:34",
     "event": "SERVER_START",
     "data": {
       "message": "Federated Learning server initialised",
       "min_clients": 3,
       "num_rounds": 3
     },
-    "previous_hash": "820efd9579ebccf64675a0523625f96bb1ae7eb206269ad682047a39e521ffde",
-    "hash": "ccfabefb29a4a87774f592112c305d12075007ef34b0d0f57f9e94eca5806292"
+    "previous_hash": "d57b72b7e3855c71445c2fea77e4ea38ec821f765f513d6ce35c0f7b687c0462",
+    "hash": "8b72946561102698841370046036588f7dc5d030a4d0ad8b4854db55da7c3a08"
   },
   {
     "index": 2,
-    "timestamp": "2026-03-04 13:38:43",
+    "timestamp": "2026-04-13 13:00:31",
     "event": "ROUND_FIT_COMPLETE",
     "data": {
       "round": 1,
       "num_clients": 3,
       "num_failures": 0
     },
-    "previous_hash": "ccfabefb29a4a87774f592112c305d12075007ef34b0d0f57f9e94eca5806292",
-    "hash": "1f89676238f8a1a9dc8dc8693cbb5d8268afccde9e69c8a2dc61aa0e3c0c0eae"
+    "previous_hash": "8b72946561102698841370046036588f7dc5d030a4d0ad8b4854db55da7c3a08",
+    "hash": "a1bf10b09218b607d6ca8455f5cd272bde42113a0328082bda95c8d6f265da9f"
   },
   {
     "index": 3,
-    "timestamp": "2026-03-04 13:38:43",
+    "timestamp": "2026-04-13 13:00:32",
     "event": "ROUND_EVALUATE_COMPLETE",
     "data": {
       "round": 1,
@@ -49,36 +49,36 @@
         },
         {
           "client": 2,
-          "recall": 0.9518072289156626,
-          "precision": 0.09541062801932366,
-          "f1": 0.1734357848518112
-        },
-        {
-          "client": 3,
           "recall": 0.9759036144578314,
           "precision": 0.09540636042402827,
           "f1": 0.17381974248927037
+        },
+        {
+          "client": 3,
+          "recall": 0.9518072289156626,
+          "precision": 0.09541062801932366,
+          "f1": 0.1734357848518112
         }
       ]
     },
-    "previous_hash": "1f89676238f8a1a9dc8dc8693cbb5d8268afccde9e69c8a2dc61aa0e3c0c0eae",
-    "hash": "c8e0008c58d984474b3d9634ec1891c6be17c3184f047663c862e5d1f4ecb763"
+    "previous_hash": "a1bf10b09218b607d6ca8455f5cd272bde42113a0328082bda95c8d6f265da9f",
+    "hash": "88c42d4c7e514425358dfbb961effa495a0791078e503cec2764f64b5c93638f"
   },
   {
     "index": 4,
-    "timestamp": "2026-03-04 13:38:43",
+    "timestamp": "2026-04-13 13:00:32",
     "event": "ROUND_FIT_COMPLETE",
     "data": {
       "round": 2,
       "num_clients": 3,
       "num_failures": 0
     },
-    "previous_hash": "c8e0008c58d984474b3d9634ec1891c6be17c3184f047663c862e5d1f4ecb763",
-    "hash": "b918843d890322dbe392ec175e3d973a63401a6c2fd525db9e766533eb61a50f"
+    "previous_hash": "88c42d4c7e514425358dfbb961effa495a0791078e503cec2764f64b5c93638f",
+    "hash": "6bc387d843eab6d0f34a2b20cd30fcc666abcb99b9d9b115eeba632293cb2fb5"
   },
   {
     "index": 5,
-    "timestamp": "2026-03-04 13:38:43",
+    "timestamp": "2026-04-13 13:00:32",
     "event": "ROUND_EVALUATE_COMPLETE",
     "data": {
       "round": 2,
@@ -92,36 +92,36 @@
         },
         {
           "client": 2,
-          "recall": 0.9759036144578314,
-          "precision": 0.09540636042402827,
-          "f1": 0.17381974248927037
-        },
-        {
-          "client": 3,
           "recall": 0.927710843373494,
           "precision": 0.09058823529411765,
           "f1": 0.16505894962486603
+        },
+        {
+          "client": 3,
+          "recall": 0.9759036144578314,
+          "precision": 0.09540636042402827,
+          "f1": 0.17381974248927037
         }
       ]
     },
-    "previous_hash": "b918843d890322dbe392ec175e3d973a63401a6c2fd525db9e766533eb61a50f",
-    "hash": "884113e356901b3986d100ecb00a2669b01350b4884d35ecff211335e6b98c82"
+    "previous_hash": "6bc387d843eab6d0f34a2b20cd30fcc666abcb99b9d9b115eeba632293cb2fb5",
+    "hash": "5d048da2cf07671722e93ae62841a4d19efd727ce2ff85447d0ee495644c1974"
   },
   {
     "index": 6,
-    "timestamp": "2026-03-04 13:38:43",
+    "timestamp": "2026-04-13 13:00:32",
     "event": "ROUND_FIT_COMPLETE",
     "data": {
       "round": 3,
       "num_clients": 3,
       "num_failures": 0
     },
-    "previous_hash": "884113e356901b3986d100ecb00a2669b01350b4884d35ecff211335e6b98c82",
-    "hash": "2b91cf3253067c06d1141348562da820f10e346abdf3795951eaab80481ff6b9"
+    "previous_hash": "5d048da2cf07671722e93ae62841a4d19efd727ce2ff85447d0ee495644c1974",
+    "hash": "d3b86f0541ea1230846834b7d9c8290c42230d4d92f44afbe0c4f777569bc6d7"
   },
   {
     "index": 7,
-    "timestamp": "2026-03-04 13:38:44",
+    "timestamp": "2026-04-13 13:00:32",
     "event": "ROUND_EVALUATE_COMPLETE",
     "data": {
       "round": 3,
@@ -129,35 +129,35 @@
       "client_metrics": [
         {
           "client": 1,
+          "recall": 0.9518072289156626,
+          "precision": 0.09541062801932366,
+          "f1": 0.1734357848518112
+        },
+        {
+          "client": 2,
           "recall": 0.9759036144578314,
           "precision": 0.09540636042402827,
           "f1": 0.17381974248927037
         },
         {
-          "client": 2,
+          "client": 3,
           "recall": 0.927710843373494,
           "precision": 0.09058823529411765,
           "f1": 0.16505894962486603
-        },
-        {
-          "client": 3,
-          "recall": 0.9518072289156626,
-          "precision": 0.09541062801932366,
-          "f1": 0.1734357848518112
         }
       ]
     },
-    "previous_hash": "2b91cf3253067c06d1141348562da820f10e346abdf3795951eaab80481ff6b9",
-    "hash": "000b483b1acdac85d13c6a070928507689e234a220aafbb20a6aabfe67a77c7f"
+    "previous_hash": "d3b86f0541ea1230846834b7d9c8290c42230d4d92f44afbe0c4f777569bc6d7",
+    "hash": "b4a4cbefb1969068dd424b4e9724441254de3c08987a883493096e9f07ec0a03"
   },
   {
     "index": 8,
-    "timestamp": "2026-03-04 13:38:44",
+    "timestamp": "2026-04-13 13:00:32",
     "event": "SERVER_END",
     "data": {
       "message": "All training rounds completed"
     },
-    "previous_hash": "000b483b1acdac85d13c6a070928507689e234a220aafbb20a6aabfe67a77c7f",
-    "hash": "7d3f235bdee7f2f466af15c1faab273c8426f4e80745963280f11acd0c8e7431"
+    "previous_hash": "b4a4cbefb1969068dd424b4e9724441254de3c08987a883493096e9f07ec0a03",
+    "hash": "a919a1ac26a8d014874be4621324813c532216896e1e2fd75e65a07ad7baa73f"
   }
 ]
